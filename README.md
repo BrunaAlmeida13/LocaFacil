@@ -7,7 +7,8 @@
 - **Gestão de Contratos**: Criação, acompanhamento e gerenciamento de contratos de aluguel.  
 - **Controle de Estoque**: Gerencie a disponibilidade e movimentação dos itens para aluguel.  
 - **Cadastro de Clientes e Usuários**: Organização de informações essenciais para um atendimento eficiente.  
-- **Geração de Documentos**: Produção automática de contratos e recibos em formato PDF.  
+- **Geração de Documentos**: Produção automática de contratos e recibos em formato PDF.
+- **Agendamentos**: Controle das datas dos contratos.
 
 ## Especificações Técnicas  
 
