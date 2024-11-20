@@ -13,6 +13,6 @@
 
 - **Linguagem de Programação**: Java 17  
 - **Tipo de Aplicação**: Desktop  
-- **Base de Dados**: MySQL  
+- **Base de Dados**: SQLite com Spring Data JPA  
 
 Com o **LocaFácil**, você tem à disposição uma solução completa e eficiente para simplificar o gerenciamento de aluguéis.  
