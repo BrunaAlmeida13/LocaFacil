@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.HBox?>
+<VBox spacing="20" alignment="CENTER" xmlns="http://javafx.com/javafx/17.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <!-- Título -->
+    <Text text="Loca Fácil" style="-fx-font-size: 36px; -fx-fill: darkblue;" />
+
+    <!-- HBox para os botões -->
+    <HBox spacing="15" alignment="CENTER">
+        <JFXButton text="Aluguéis" style="-fx-font-size: 18px; -jfx-button-type: RAISED; -fx-background-color: #3498db; -fx-text-fill: white;" />
+        <JFXButton text="Produtos" style="-fx-font-size: 18px; -jfx-button-type: RAISED; -fx-background-color: #3498db; -fx-text-fill: white;" />
+        <JFXButton text="Clientes" style="-fx-font-size: 18px; -jfx-button-type: RAISED; -fx-background-color: #3498db; -fx-text-fill: white;" />
+        <JFXButton text="Gerar Documentos" style="-fx-font-size: 18px; -jfx-button-type: RAISED; -fx-background-color: #3498db; -fx-text-fill: white;" />
+    </HBox>
+
+    <HBox spacing="15" alignment="CENTER">
+        <JFXButton text="Sair" style="-fx-font-size: 18px; -jfx-button-type: RAISED; -fx-background-color: #e74c3c; -fx-text-fill: white;" />
+    </HBox>
+</VBox>
