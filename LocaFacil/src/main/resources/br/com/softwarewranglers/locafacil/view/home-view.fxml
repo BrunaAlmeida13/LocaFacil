@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import org.kordamp.bootstrapfx.BootstrapFX?>
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" spacing="20" alignment="CENTER"
+      styleClass="container"
+      fx:controller="br.com.softwarewranglers.locafacil.view.HomeFacade">
+    <stylesheets>
+        <BootstrapFX fx:factory="bootstrapFXStylesheet"/>
+    </stylesheets>
+    <!-- Título -->
+    <Label text="LocaFácil" styleClass="display-4 text-success font-weight-bold"/>
+
+    <!-- Mensagem inicial -->
+    <Label text="Bem-vindo ao sistema de aluguel mais fácil e rápido!"
+           styleClass="lead text-center" wrapText="true" textAlignment="CENTER"/>
+
+    <!-- Botões -->
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Entrar" styleClass="btn btn-success btn-lg"/>
+        <Button text="Cadastro" styleClass="btn btn-primary btn-lg"/>
+    </HBox>
+</VBox>
