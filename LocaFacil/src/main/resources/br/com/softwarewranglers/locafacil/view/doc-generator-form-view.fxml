@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.text.Text?>
+<VBox alignment="CENTER" spacing="20" xmlns="http://javafx.com/javafx/17.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="br.com.softwarewranglers.locafacil.view.DocGeneratorFacade">
+    <Text text="Gerador de Documentos" style="-fx-font-size: 36px; -fx-fill: darkblue;"/>
+
+    <HBox spacing="15" alignment="CENTER">
+        <JFXButton text="Contrato" style="-fx-font-size: 18px; -jfx-button-type: RAISED; -fx-background-color: #3498db; -fx-text-fill: white;" disable="true"/>
+        <JFXButton text="Recibo" style="-fx-font-size: 18px; -jfx-button-type: RAISED; -fx-background-color: #3498db; -fx-text-fill: white;"
+        onAction="#handleReciboFormAction"/>
+    </HBox>
+</VBox>

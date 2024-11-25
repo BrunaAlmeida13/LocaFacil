@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.softwarewranglers.locafacil.view.FormReciboFacade">
+
+    <!-- Botão "Voltar" no canto superior esquerdo -->
+    <ButtonBar prefHeight="40.0" prefWidth="200.0" AnchorPane.leftAnchor="0" AnchorPane.topAnchor="0">
+        <buttons>
+            <JFXButton ripplerFill="BLACK" style="-fx-pref-width: 100; -fx-background-color: #3498db; -fx-text-fill: white;" text="Voltar" />
+        </buttons>
+    </ButtonBar>
+
+    <!-- Título centralizado -->
+    <Label text="Gerar Recibo" style="-fx-font-size: 24; -fx-font-weight: bold;"
+           AnchorPane.topAnchor="50" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0"
+           alignment="CENTER" />
+
+    <!-- Formulário centralizado com tamanho aumentado -->
+    <GridPane alignment="CENTER" hgap="15" vgap="15" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="100" AnchorPane.bottomAnchor="0" style="-fx-pref-width: 600; -fx-pref-height: 500;">
+        <!-- Nome do Cliente -->
+        <Label text="Nome do Cliente:" GridPane.rowIndex="1" />
+        <JFXTextField fx:id="nomeClienteField" promptText="Digite o nome do cliente" style="-fx-pref-width: 400;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+        <!-- CPF -->
+        <Label text="CPF:" GridPane.rowIndex="2" />
+        <JFXTextField fx:id="cpfField" promptText="Digite o CPF" style="-fx-pref-width: 400;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+        <!-- Produto -->
+        <Label text="Produto:" GridPane.rowIndex="3" />
+        <JFXTextField fx:id="produtoField" promptText="Digite o nome do produto" style="-fx-pref-width: 400;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+        <!-- Valor -->
+        <Label text="Valor (R$):" GridPane.rowIndex="4" />
+        <JFXTextField fx:id="valorField" promptText="Digite o valor" style="-fx-pref-width: 400;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+
+        <!-- Data Inicial - Aluguel -->
+        <Label text="Data Inicial - Aluguel:" GridPane.rowIndex="5" />
+        <DatePicker fx:id="dataInicialPicker" promptText="Selecione a data inicial" style="-fx-pref-width: 400;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+
+        <!-- Data Final - Aluguel -->
+        <Label text="Data Final - Aluguel:" GridPane.rowIndex="6" />
+        <DatePicker fx:id="dataFinalPicker" promptText="Selecione a data final" style="-fx-pref-width: 400;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+
+        <!-- Nome do Proprietário -->
+        <Label text="Nome do Proprietário:" GridPane.rowIndex="7" />
+        <JFXTextField fx:id="nomeProprietarioField" promptText="Digite o nome do proprietário" style="-fx-pref-width: 400;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+
+        <!-- CPF do Proprietário -->
+        <Label text="CPF do Proprietário:" GridPane.rowIndex="8" />
+        <JFXTextField fx:id="cpfProprietarioField" promptText="Digite o CPF do proprietário" style="-fx-pref-width: 400;" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+
+        <!-- Botão Salvar -->
+        <JFXButton style="-fx-pref-width: 150; -fx-background-color: #3498db; -fx-text-fill: white;" text="Salvar" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+    </GridPane>
+</AnchorPane>
